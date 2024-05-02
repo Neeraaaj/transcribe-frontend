@@ -1,0 +1,27 @@
+
+.navbar {
+	background-color: rebeccapurple;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 10px;
+	border-radius: 30px;
+	
+	cursor: pointer;
+}
+
+.nav {
+	flex: 1;
+	padding: 15px 30px;
+	color: #fff;
+	text-align: center;
+	border-radius: 20px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	transition: background 0.2s ease-out;
+}
+.nav:hover{
+	background: white;
+}
