@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const About = () => {
   return (
@@ -9,14 +10,18 @@ const About = () => {
               <div className="flex items-center -mx-3 sm:-mx-4">
                 <div className="w-[25rem] px-3 sm:px-4 xl:w-1/8">
                   <div className="py-3 sm:py-4">
-                    <img
+                    <Image
+                    width={400}
+                    height={500}
                       src="https://media.licdn.com/dms/image/D5612AQHGW-nHWH85wg/article-cover_image-shrink_600_2000/0/1692855905133?e=2147483647&v=beta&t=NN0UxktaBIsIvj7RxTqnjXeHLp4JhzzFi3bDqPfbzLo"
                       alt=""
                       className="w-full rounded-2xl"
                     />
                   </div>
                   <div className="py-3 sm:py-4">
-                    <img
+                    <Image
+                    width={400}
+                    height={500}
                       src="https://t3.ftcdn.net/jpg/04/57/31/10/360_F_457311054_2xIMCMOqExZfXVJEbdIOL7EABStPiw6A.jpg"
                       alt=""
                       className="w-full rounded-2xl"
@@ -25,7 +30,9 @@ const About = () => {
                 </div>
                 <div className="w-[30rem] px-3 sm:px-4 xl:w-1/10">
                   <div className="relative z-10 my-4">
-                    <img
+                    <Image
+                    width={400}
+                    height={500}
                       src="https://fosspost.org/wp-content/uploads/2019/02/rendered.jpg"
                       alt=""
                       className="w-full rounded-2xl"
